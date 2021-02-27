@@ -1,8 +1,9 @@
 import { RiComputerLine } from 'react-icons/ri';
-import { IService } from './type';
+import { IService, ISkill } from './type';
 import { FaServer } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
+import { BsCircleFill } from 'react-icons/bs';
 
 export const services: IService[] = [
   {
@@ -31,5 +32,62 @@ export const services: IService[] = [
     Icon: AiOutlineAntDesign,
     title: 'Frontend Dev',
     about: 'lorem.....',
+  },
+];
+
+export const languages: ISkill[] = [
+  {
+    name: 'HTML',
+    level: '70%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'CSS',
+    level: '60%',
+    Icon: BsCircleFill,
+  },
+
+  {
+    name: 'Java Script',
+    level: '65%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'React',
+    level: '70%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'React Native',
+    level: '50%',
+    Icon: BsCircleFill,
+  },
+];
+
+export const tools: ISkill[] = [
+  {
+    name: 'SCSS',
+    level: '60%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'Design Responsivo',
+    level: '80%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'Bootstrap',
+    level: '80%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'Material Design',
+    level: '60%',
+    Icon: BsCircleFill,
+  },
+  {
+    name: 'SEO',
+    level: '70%',
+    Icon: BsCircleFill,
   },
 ];
