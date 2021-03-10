@@ -1,5 +1,5 @@
 import { RiComputerLine } from 'react-icons/ri';
-import { IService, ISkill } from './type';
+import { IProject, IService, ISkill } from './type';
 import { FaServer } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
@@ -89,5 +89,60 @@ export const tools: ISkill[] = [
     name: 'SEO',
     level: '70%',
     Icon: BsCircleFill,
+  },
+];
+
+export const projects: IProject[] = [
+  {
+    name: 'Web Site - Dolla Bank',
+    description: 'Web Site feito em React',
+    image_path: './images/website-dolla.png',
+    deployed_url: 'https://website-react.claytoncampos.vercel.app/',
+    github_url: 'https://github.com/claytoncampos/website-react',
+    category: ['react'],
+    key_techs: [
+      'React',
+      'styled-components',
+      'react-router-dom',
+      'react-icons',
+      'react-scroll',
+    ],
+  },
+  {
+    name: 'Web App - Seach Bitcoin Currency',
+    description: 'Web App feito em React, consumindo API ',
+    image_path: './images/webapp-bitcoin.png',
+    deployed_url: 'https://api-bitcoin.claytoncampos.vercel.app/',
+    github_url: 'https://github.com/claytoncampos/react-consumer-api-bitcoin',
+    category: ['react'],
+    key_techs: ['React', 'Axios'],
+  },
+  {
+    name: 'Web Site - Spider-Man PS5',
+    description:
+      'Web Site feito em React sobre o lançamento do game Spider-man PS5',
+    image_path: './images/spider-man.png',
+    deployed_url: '',
+    github_url: 'https://github.com/claytoncampos/spider-man',
+    category: ['react'],
+    key_techs: ['React', 'Java Script', 'JQuery', 'Tilt', 'TweenMax', 'Sass'],
+  },
+  {
+    name: 'Blog',
+    description: 'Blog feito com NextJs',
+    image_path: './images/blog.png',
+    deployed_url: 'https://simple-blog-nextjs.claytoncampos.vercel.app/',
+    github_url: 'https://github.com/claytoncampos/simple-blog-nextjs',
+    category: ['react', 'nextjs'],
+    key_techs: ['Nextjs', 'react'],
+  },
+  {
+    name: 'Portfolio',
+    description: 'Portfolio',
+    image_path: './images/spider-man.png',
+    deployed_url: 'https://api-bitcoin.claytoncampos.vercel.app/',
+    github_url: 'https://github.com/claytoncampos/my-portfolio',
+    category: ['react', 'nextjs'],
+    key_techs: ['Nextjs', 'Typescript', 'Tailwind'],
   },
 ];
