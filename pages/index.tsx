@@ -35,7 +35,7 @@ const index = () => {
 };
 
 export default index;
-
+/*
 export const getStaticProps = async (context: GetStaticProps) => {
   const res = await fetch('http://localhost:3000/api/services');
   const data = await res.json();
@@ -46,3 +46,4 @@ export const getStaticProps = async (context: GetStaticProps) => {
     },
   };
 };
+*/
