@@ -139,8 +139,8 @@ export const projects: IProject[] = [
   {
     name: 'Portfolio',
     description: 'Portfolio',
-    image_path: './images/spider-man.png',
-    deployed_url: 'https://api-bitcoin.claytoncampos.vercel.app/',
+    image_path: './images/portfolio.png',
+    deployed_url: 'https://portfolio-clayton.vercel.app/',
     github_url: 'https://github.com/claytoncampos/my-portfolio',
     category: ['react', 'nextjs'],
     key_techs: ['Nextjs', 'Typescript', 'Tailwind'],
