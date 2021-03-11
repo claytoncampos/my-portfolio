@@ -1,5 +1,5 @@
 import { RiComputerLine } from 'react-icons/ri';
-import { IProject, IService, ISkill } from './type';
+import { IProject, IService, ISkill } from './types';
 import { FaServer } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
 import { MdDeveloperMode } from 'react-icons/md';
@@ -114,7 +114,7 @@ export const projects: IProject[] = [
     image_path: './images/webapp-bitcoin.png',
     deployed_url: 'https://api-bitcoin.claytoncampos.vercel.app/',
     github_url: 'https://github.com/claytoncampos/react-consumer-api-bitcoin',
-    category: ['mobile'],
+    category: ['react'],
     key_techs: ['React', 'Axios'],
   },
   {
