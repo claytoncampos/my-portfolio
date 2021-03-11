@@ -114,7 +114,7 @@ export const projects: IProject[] = [
     image_path: './images/webapp-bitcoin.png',
     deployed_url: 'https://api-bitcoin.claytoncampos.vercel.app/',
     github_url: 'https://github.com/claytoncampos/react-consumer-api-bitcoin',
-    category: ['react'],
+    category: ['mobile'],
     key_techs: ['React', 'Axios'],
   },
   {

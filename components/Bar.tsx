@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { ISkill } from '../type';
+import { ISkill } from '../types';
 
 const Bar: FunctionComponent<{
   data: ISkill;
